@@ -1,0 +1,109 @@
+
+
+
+
+/*LAYOUT*/
+body{
+	background-color: #000000;
+	color: #FFFFFF;
+	font-family: 'Ropa Sans', sans-serif;
+}
+
+
+img{ position: absolute;
+	width: 200px;
+	height: auto;
+	margin-left: 160px;
+	margin-top: -96px;
+	margin-right: auto;
+	margin-bottom:auto;
+	float-left;
+	}
+	
+
+/*Bild über logo*/
+	#blend { position: relative }
+
+	#blend img#top:hover { opacity:0 }
+
+	#blend img { position: absolute; 
+    top: 0; left: 0; opacity: 1;    
+    transition: opacity 1s
+}
+
+/*kästen*/
+.ueberGruppe{
+	background-color: #00FF00;
+	height: 666px;
+	width: 962px;
+	margin-left: 160px;
+	margin-top: 132px;
+	margin-right: auto;
+	margin-bottom: auto;
+	
+
+	
+}
+.gap1{
+	background-color: #FF0000;
+	width:93px;
+	height:96px;
+	margin-top:48px;
+	margin-right: 179px;
+	margin-bottom: auto;
+	margin-left: 0px;
+	float:left;
+}
+
+
+
+.gap2{
+	background-color:#0000FF;
+	width:150px;
+	height:564px;
+	margin-top:48px;
+	margin-right: 0px;
+	margin-bottom: auto;
+	margin-left: 0px;
+	float:left;
+
+
+}
+
+
+.gap3{
+background-color:#0000FF;
+	width:134px;
+	height:564px;
+	margin-top:150px;
+	margin-right: 65px;
+	margin-bottom: auto;
+	margin-left: 0px;
+	float:left;
+}
+
+.gap4{
+	background-color:#FF0000;
+	width:274px;
+	height:168px;
+	margin-top:150px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: 0px;
+	float:left;
+}
+
+/*Schrift*/
+h1{
+	font-size: 19px;
+}
+h2{
+	font-size: 15px;
+}
+
+p{
+	font-size: 15px;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
