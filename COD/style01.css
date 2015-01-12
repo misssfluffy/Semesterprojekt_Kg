@@ -1,6 +1,13 @@
 
 
+/* CSS Reset*/
+*{
+	box-sizing: border-box;
+}
 
+html, body, h1, h2, h3, p{
+	margin: 4px;
+}
 
 /*LAYOUT*/
 body{
@@ -31,13 +38,46 @@ img{ position: absolute;
     transition: opacity 1s
 }
 
+/*ANIMATIONS*/
+
+h2:hover {
+  	-webkit-transition: all 0.5s;
+  	-o-transition: all 0.5s;
+  	transition: all 0.5s;
+
+
+
+  	-webkit-transform: scale(1.1,1.1);
+  	-ms-transform: scale(1.1,1.1);
+  	-o-transform: scale(1.1,1.1);
+  	transform: scale(1.1,1.1);
+
+  	text-shadow: 3px 3px 8px rgb(100,100,100)
+  }
+
+  h3:hover {
+  	-webkit-transition: all 0.5s;
+  	-o-transition: all 0.5s;
+  	transition: all 0.5s;
+
+
+
+  	-webkit-transform: scale(1.1,1.1);
+  	-ms-transform: scale(1.1,1.1);
+  	-o-transform: scale(1.1,1.1);
+  	transform: scale(1.1,1.1);
+
+  	text-shadow: 3px 3px 8px rgb(100,100,100)
+  }
+
+
 /*kästen*/
 .ueberGruppe{
-	background-color: #00FF00;
+	
 	height: 666px;
 	width: 962px;
 	margin-left: 160px;
-	margin-top: 132px;
+	margin-top: 120px;
 	margin-right: auto;
 	margin-bottom: auto;
 	
@@ -45,7 +85,7 @@ img{ position: absolute;
 	
 }
 .gap1{
-	background-color: #FF0000;
+	
 	width:93px;
 	height:96px;
 	margin-top:48px;
@@ -58,7 +98,7 @@ img{ position: absolute;
 
 
 .gap2{
-	background-color:#0000FF;
+	
 	width:150px;
 	height:564px;
 	margin-top:48px;
@@ -72,7 +112,7 @@ img{ position: absolute;
 
 
 .gap3{
-background-color:#0000FF;
+
 	width:134px;
 	height:564px;
 	margin-top:150px;
@@ -83,7 +123,7 @@ background-color:#0000FF;
 }
 
 .gap4{
-	background-color:#FF0000;
+
 	width:274px;
 	height:168px;
 	margin-top:150px;
@@ -99,11 +139,22 @@ h1{
 }
 h2{
 	font-size: 15px;
+		-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
-p{
+h3{
 	font-size: 15px;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
+}
+
+p{
+	font-size: 15px;
+}
+/*Abstand für erklärung*/
+.luecke{
+	height: 140px;
 }
