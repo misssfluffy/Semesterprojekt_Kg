@@ -4,9 +4,9 @@
 /* Search and rescue*/
 $(document).ready(function(){
 
-	$(".gap32, .gap4").hide();
+	$(".gap31, .gap41").hide();
 	$(".gap21").click(function(){
-		$(".gap32, .gap4").fadeIn('500');
+		$(".gap31, .gap41").fadeIn('500');
 
 	});
 });
@@ -14,9 +14,9 @@ $(document).ready(function(){
 /* gungame*/
 $(document).ready(function(){
 
-	$(".gap32, .gap4").hide();
+	$(".gap32, .gap42").hide();
 	$(".gap22").click(function(){
-		$(".gap32, .gap4").fadeIn('500');
+		$(".gap32, .gap42").fadeIn('500');
 
 	});
 });
@@ -24,9 +24,9 @@ $(document).ready(function(){
 /* cranked*/
 $(document).ready(function(){
 
-	$(".gap32, .gap4").hide();
+	$(".gap33, .gap43").hide();
 	$(".gap23").click(function(){
-		$(".gap32, .gap4").fadeIn('500');
+		$(".gap33, .gap43").fadeIn('500');
 
 	});
 });
@@ -34,9 +34,9 @@ $(document).ready(function(){
 /* free f a*/
 $(document).ready(function(){
 
-	$(".gap32, .gap4").hide();
+	$(".gap34, .gap44").hide();
 	$(".gap24").click(function(){
-		$(".gap32, .gap4").fadeIn('500');
+		$(".gap34, .gap44").fadeIn('500');
 
 	});
 });
@@ -44,9 +44,9 @@ $(document).ready(function(){
 /* team deathm*/
 $(document).ready(function(){
 
-	$(".gap32, .gap4").hide();
+	$(".gap35, .gap45").hide();
 	$(".gap25").click(function(){
-		$(".gap32, .gap4").fadeIn('500');
+		$(".gap35, .gap45").fadeIn('500');
 
 	});
 });
@@ -55,9 +55,9 @@ $(document).ready(function(){
 /* search and destroy*/
 $(document).ready(function(){
 
-	$(".gap32, .gap4").hide();
+	$(".gap36, .gap46").hide();
 	$(".gap26").click(function(){
-		$(".gap32, .gap4").fadeIn('500');
+		$(".gap36, .gap46").fadeIn('500');
 
 	});
 });
@@ -65,9 +65,9 @@ $(document).ready(function(){
 /* domination*/
 $(document).ready(function(){
 
-	$(".gap32, .gap4").hide();
+	$(".gap37, .gap47").hide();
 	$(".gap27").click(function(){
-		$(".gap32, .gap4").fadeIn('500');
+		$(".gap37, .gap47").fadeIn('500');
 
 	});
 });
@@ -75,9 +75,9 @@ $(document).ready(function(){
 /* team tactical*/
 $(document).ready(function(){
 
-	$(".gap32, .gap4").hide();
+	$(".gap38, .gap48").hide();
 	$(".gap28").click(function(){
-		$(".gap32, .gap4").fadeIn('500');
+		$(".gap38, .gap48").fadeIn('500');
 
 	});
 });
@@ -85,9 +85,9 @@ $(document).ready(function(){
 /* infected*/
 $(document).ready(function(){
 
-	$(".gap32, .gap4").hide();
+	$(".gap39, .gap49").hide();
 	$(".gap29").click(function(){
-		$(".gap32, .gap4").fadeIn('500');
+		$(".gap39, .gap49").fadeIn('500');
 
 	});
 });
@@ -95,9 +95,9 @@ $(document).ready(function(){
 /* blitz*/
 $(document).ready(function(){
 
-	$(".gap32, .gap4").hide();
+	$(".gap310, .gap410").hide();
 	$(".gap210").click(function(){
-		$(".gap32, .gap4").fadeIn('500');
+		$(".gap310, .gap410").fadeIn('500');
 
 	});
 });
@@ -105,9 +105,9 @@ $(document).ready(function(){
 /* hunted free f a*/
 $(document).ready(function(){
 
-	$(".gap32, .gap4").hide();
+	$(".gap311, .gap411").hide();
 	$(".gap211").click(function(){
-		$(".gap32, .gap4").fadeIn('500');
+		$(".gap311, .gap411").fadeIn('500');
 
 	});
 });
@@ -115,9 +115,9 @@ $(document).ready(function(){
 /* ground war*/
 $(document).ready(function(){
 
-	$(".gap32, .gap4").hide();
+	$(".gap312, .gap412").hide();
 	$(".gap212").click(function(){
-		$(".gap32, .gap4").fadeIn('500');
+		$(".gap312, .gap412").fadeIn('500');
 
 	});
 });
@@ -126,9 +126,9 @@ $(document).ready(function(){
 /* drop zone*/
 $(document).ready(function(){
 
-	$(".gap32, .gap4").hide();
+	$(".gap313, .gap413").hide();
 	$(".gap213").click(function(){
-		$(".gap32, .gap4").fadeIn('500');
+		$(".gap313, .gap413").fadeIn('500');
 
 	});
 });
