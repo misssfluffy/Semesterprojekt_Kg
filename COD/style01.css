@@ -26,7 +26,73 @@ img{ position: absolute;
 	margin-bottom:auto;
 	float-left;
 	}
-	
+
+ .gap21 {
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.gap22 {
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.gap23 {
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.gap24 {
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.gap25 {
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.gap26 {
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.gap27 {
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.gap28 {
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.gap29 {
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.gap210 {
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.gap211 {
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.gap212 {
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.gap213 {
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
 
 /*Bild über logo*/
 	#blend { position: relative }
@@ -52,8 +118,12 @@ h2:hover {
   	-o-transform: scale(1.1,1.1);
   	transform: scale(1.1,1.1);
 
-  	text-shadow: 3px 3px 8px rgb(100,100,100)
+  	text-shadow: 3px 3px 8px rgb(100,100,100);
+  	color: #a2e38a;
+
+
   }
+
 
   h3:hover {
   	-webkit-transition: all 0.5s;
@@ -67,9 +137,10 @@ h2:hover {
   	-o-transform: scale(1.1,1.1);
   	transform: scale(1.1,1.1);
 
-  	text-shadow: 3px 3px 8px rgb(100,100,100)
+  	text-shadow: 3px 3px 8px rgb(100,100,100);
+  color: #e00e4c;
   }
-
+ 
 
 /*kästen*/
 .ueberGruppe{
@@ -80,13 +151,22 @@ h2:hover {
 	margin-top: 120px;
 	margin-right: auto;
 	margin-bottom: auto;
+}
+	
+.gap03{
+	width:150px;
+	height:564px;
+	margin-top:100px;
+	margin-right: 65px;
+	margin-bottom: auto;
+	margin-left: 0px;
+	float:left;
+}
 	
 
-	
-}
 .gap1{
 	
-	width:93px;
+	width:100px;
 	height:96px;
 	margin-top:48px;
 	margin-right: 179px;
@@ -112,6 +192,13 @@ h2:hover {
 
 /*klasse für den gamemode zum klicken*/
 
+.gap01{
+	color: #FFFFFF;
+
+}.gap02{
+	color: #FFFFFF;
+
+}
 .gap21{
 	color: #FFFFFF;
 
@@ -457,4 +544,10 @@ p{
 .luecke{
 	height: 140px;
 }
-
+.fade {
+	opacity: 1;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	display: block;
+}
