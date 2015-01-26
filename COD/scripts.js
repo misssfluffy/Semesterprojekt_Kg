@@ -1,7 +1,7 @@
 /* noch für multiplayer zum klicken machen*/
 $(document).ready(function(){
 
-	$(".gap2").hide();
+	$(".gap2, .gap03").hide();
 	var toggle = false;
 	$(".gap01").click(function(){
 		
@@ -12,13 +12,8 @@ $(document).ready(function(){
 
 		} else {
 			$(".gap2").fadeOut('500');
-			$(".gap2 ").fadeOut('500');
-			$(".gap2").fadeOut('500');
-			$(".gap2").fadeOut('500');
-			$(".gap2").fadeOut('500');
-			$(".gap2").fadeOut('500');
-			$(".gap2").fadeOut('500');
-
+			$(".gap03").fadeOut('500');
+			
 			
 			 	
 		}
@@ -42,6 +37,7 @@ $(document).ready(function(){
 
 		} else {
 			$(".gap03").fadeOut('500');
+			$(".gap2").fadeOut('500');
 			
 			 	
 		}
@@ -63,7 +59,7 @@ $(document).ready(function(){
 		console.log(toggle);
 		if (toggle) {
 			$(".gap31, .gap41").fadeIn('500');
-			$(".gap22").addClass("luecke");
+			$(".gap21").addClass("luecke");
 
 		} else {
 			$(".gap31, .gap41").fadeOut('500');
@@ -134,7 +130,7 @@ $(document).ready(function(){
 		
 		console.log(toggle);
 		if (toggle) {
-			$(".gap34 .gap44").fadeIn('500');
+			$(".gap34, .gap44").fadeIn('500');
 			$(".gap24").addClass("luecke");
 
 		} else {
