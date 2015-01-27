@@ -29,9 +29,9 @@ $(document).ready(function(){
 	$(".gap2, .gap03").hide();
 	var toggle = false;
 	$(".gap02").click(function(){
-		
-		console.log(toggle);
+			console.log(toggle);
 		if (toggle) {
+	
 			$(".gap03").fadeIn('500');
 	
 

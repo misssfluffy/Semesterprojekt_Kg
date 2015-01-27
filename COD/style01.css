@@ -156,7 +156,7 @@ h2:hover {
 	
 	height: 666px;
 	width: 962px;
-	margin-left: 195px;
+	margin-left: 1px;
 	margin-top: 1px;
 	margin-right: auto;
 	margin-bottom: auto;
@@ -169,8 +169,9 @@ h2:hover {
 	margin-right: 65px;
 	margin-bottom: auto;
 	margin-left: 0px;
-	float:left;
+	float: left;
 }
+
 	
 
 .gap1{
@@ -178,7 +179,7 @@ h2:hover {
 	width:100px;
 	height:96px;
 	margin-top:48px;
-	margin-right: 179px;
+	margin-right: 45px;
 	margin-bottom: auto;
 	margin-left: 0px;
 	float:left;
@@ -264,7 +265,7 @@ cursor: pointer;
 }
 
 
-/*spalte 3/ 1reihe gamemode*/
+/*spalte 3/ 1reihe gamemode
 .gap31{
 
 	width:134px;
@@ -395,14 +396,66 @@ cursor: pointer;
 	margin-left: 0px;
 	float:left;
 }
-
+	<div class="gap31">
+							<p> 31Diese Erklärung</p>
+							<p>31Regeln/Ziel...</p>
+						</div>
+						<div class="gap32">
+							<p>32Erklärung</p>
+							<p>32Regeln/Ziel...</p>
+						</div>
+						<div class="gap33">
+							<p> 33Diese Erklärung</p>
+							<p>33Regeln/Ziel...</p>
+						</div>
+						<div class="gap34">
+							<p> 34Diese Erklärung</p>
+							<p>34Regeln/Ziel...</p>
+						</div>
+						<div class="gap35">
+							<p> 35Diese Erklärung</p>
+							<p>35Regeln/Ziel...</p>
+						</div>
+						<div class="gap36">
+							<p> 36Diese Erklärung</p>
+							<p>36Regeln/Ziel...</p>
+						</div>
+						<div class="gap37">
+							<p> 37Diese Erklärung</p>
+							<p>37Regeln/Ziel...</p>
+						</div>
+						<div class="gap38">
+							<p> 38Diese Erklärung</p>
+							<p>38Regeln/Ziel...</p>
+						</div>
+						<div class="gap39">
+							<p> 39Diese Erklärung</p>
+							<p>39Regeln/Ziel...</p>
+						</div>
+						<div class="gap310">
+							<p> 310Diese Erklärung</p>
+							<p>310Regeln/Ziel...</p>
+						</div>
+						<div class="gap311">
+							<p> 311Diese Erklärung</p>
+							<p>311Regeln/Ziel...</p>
+						</div>
+						<div class="gap312">
+							<p> 312Diese Erklärung</p>
+							<p>312Regeln/Ziel...</p>
+						</div>
+						<div class="gap313">
+							<p> 313Diese Erklärung</p>
+							<p>313Regeln/Ziel...</p>
+						</div>
+*/
 
 /*Spalte4/ 1 reihe gamemode*/
 .gap41{
 
 	width:274px;
 	height:168px;
-	margin-top:100px;
+	margin-top:75px;
 	margin-right: auto;
 	margin-bottom: auto;
 	margin-left: 0px;
@@ -412,7 +465,7 @@ cursor: pointer;
 
 	width:274px;
 	height:168px;
-	margin-top:120px;
+	margin-top:97px;
 	margin-right: auto;
 	margin-bottom: auto;
 	margin-left: 0px;
@@ -422,7 +475,7 @@ cursor: pointer;
 
 	width:274px;
 	height:168px;
-	margin-top:140px;
+	margin-top:117px;
 	margin-right: auto;
 	margin-bottom: auto;
 	margin-left: 0px;
@@ -432,7 +485,7 @@ cursor: pointer;
 
 	width:274px;
 	height:168px;
-	margin-top:160px;
+	margin-top:139px;
 	margin-right: auto;
 	margin-bottom: auto;
 	margin-left: 0px;
@@ -442,7 +495,7 @@ cursor: pointer;
 
 	width:274px;
 	height:168px;
-	margin-top:180px;
+	margin-top:158px;
 	margin-right: auto;
 	margin-bottom: auto;
 	margin-left: 0px;
@@ -452,7 +505,7 @@ cursor: pointer;
 
 	width:274px;
 	height:168px;
-	margin-top:200px;
+	margin-top:180px;
 	margin-right: auto;
 	margin-bottom: auto;
 	margin-left: 0px;
@@ -462,7 +515,7 @@ cursor: pointer;
 
 	width:274px;
 	height:168px;
-	margin-top:220px;
+	margin-top:201px;
 	margin-right: auto;
 	margin-bottom: auto;
 	margin-left: 0px;
@@ -472,7 +525,7 @@ cursor: pointer;
 
 	width:274px;
 	height:168px;
-	margin-top:240px;
+	margin-top:221px;
 	margin-right: auto;
 	margin-bottom: auto;
 	margin-left: 0px;
@@ -482,7 +535,7 @@ cursor: pointer;
 
 	width:274px;
 	height:168px;
-	margin-top:260px;
+	margin-top:243px;
 	margin-right: auto;
 	margin-bottom: auto;
 	margin-left: 0px;
@@ -492,7 +545,7 @@ cursor: pointer;
 
 	width:274px;
 	height:168px;
-	margin-top:280px;
+	margin-top:267px;
 	margin-right: auto;
 	margin-bottom: auto;
 	margin-left: 0px;
@@ -502,7 +555,7 @@ cursor: pointer;
 
 	width:274px;
 	height:168px;
-	margin-top:300px;
+	margin-top:284px;
 	margin-right: auto;
 	margin-bottom: auto;
 	margin-left: 0px;
@@ -512,7 +565,7 @@ cursor: pointer;
 
 	width:274px;
 	height:168px;
-	margin-top:320px;
+	margin-top:305px;
 	margin-right: auto;
 	margin-bottom: auto;
 	margin-left: 0px;
@@ -522,7 +575,7 @@ cursor: pointer;
 
 	width:274px;
 	height:168px;
-	margin-top:340px;
+	margin-top:327px;
 	margin-right: auto;
 	margin-bottom: auto;
 	margin-left: 0px;
@@ -552,7 +605,6 @@ h4{
 }
 h5{
 	font-size: 30px;
-	margin-left: 100px;
 	margin-top: 1px;
 }
 h6{
