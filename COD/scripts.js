@@ -2,7 +2,7 @@
 $(document).ready(function(){
 
 	$(".gap2, .gap03").hide();
-	var toggle = false;
+	var toggle = true;
 	$(".gap01").click(function(){
 		
 		console.log(toggle);
@@ -13,9 +13,7 @@ $(document).ready(function(){
 		} else {
 			$(".gap2").fadeOut('500');
 			$(".gap03").fadeOut('500');
-			
-			
-			 	
+						 	
 		}
 		toggle = !toggle; 
 		console.log(toggle);
@@ -27,7 +25,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 
 	$(".gap2, .gap03").hide();
-	var toggle = false;
+	var toggle = true;
 	$(".gap02").click(function(){
 			console.log(toggle);
 		if (toggle) {
@@ -53,13 +51,20 @@ $(document).ready(function(){
 $(document).ready(function(){
 
 	$(".gap31, .gap41").hide();
-	var toggle = false;
+	var toggle = true;
 	$(".gap21").click(function(){
 		
 		console.log(toggle);
 		if (toggle) {
+			//Alle anderen bis auf das geklickte müssen ausgeblendet werden... 
+			$(".gap42, .gap43, .gap44, .gap45, .gap46, .gap47, .gap48").fadeOut('50');
+			// ...und die Klasse luecke entfernt werden
+			$(".gap21, .gap22, .gap23, .gap24, .gap25, .gap26, .gap27 ").removeClass("luecke");		
+	
 			$(".gap31, .gap41").fadeIn('500');
 			$(".gap21").addClass("luecke");
+			
+			
 
 		} else {
 			$(".gap31, .gap41").fadeOut('500');
@@ -77,7 +82,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 
 	$(".gap32, .gap42").hide();
-	var toggle = false;
+	var toggle = true;
 	$(".gap22").click(function(){
 		
 		console.log(toggle);
@@ -101,7 +106,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 
 	$(".gap33, .gap43").hide();
-	var toggle = false;
+	var toggle = true;
 	$(".gap23").click(function(){
 		
 		console.log(toggle);
@@ -125,7 +130,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 
 	$(".gap34, .gap44").hide();
-	var toggle = false;
+	var toggle = true;
 	$(".gap24").click(function(){
 		
 		console.log(toggle);
@@ -149,7 +154,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 
 	$(".gap35, .gap45").hide();
-	var toggle = false;
+	var toggle = true;
 	$(".gap25").click(function(){
 		
 		console.log(toggle);
@@ -173,7 +178,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 
 	$(".gap36, .gap46").hide();
-	var toggle = false;
+	var toggle = true;
 	$(".gap26").click(function(){
 		
 		console.log(toggle);
@@ -196,7 +201,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 
 	$(".gap37, .gap47").hide();
-	var toggle = false;
+	var toggle = true;
 	$(".gap27").click(function(){
 		
 		console.log(toggle);
@@ -220,7 +225,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 
 	$(".gap38, .gap48").hide();
-	var toggle = false;
+	var toggle = true;
 	$(".gap28").click(function(){
 		
 		console.log(toggle);
@@ -244,7 +249,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 
 	$(".gap39, .gap49").hide();
-	var toggle = false;
+	var toggle = true;
 	$(".gap29").click(function(){
 		
 		console.log(toggle);
@@ -267,7 +272,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 
 	$(".gap310, .gap410").hide();
-	var toggle = false;
+	var toggle = true;
 	$(".gap210").click(function(){
 		
 		console.log(toggle);
@@ -291,7 +296,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 
 	$(".gap311, .gap411").hide();
-	var toggle = false;
+	var toggle = true;
 	$(".gap211").click(function(){
 		
 		console.log(toggle);
@@ -315,7 +320,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 
 	$(".gap312, .gap412").hide();
-	var toggle = false;
+	var toggle = true;
 	$(".gap212").click(function(){
 		
 		console.log(toggle);
@@ -340,7 +345,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 
 	$(".gap313, .gap413").hide();
-	var toggle = false;
+	var toggle = true;
 	$(".gap213").click(function(){
 		
 		console.log(toggle);

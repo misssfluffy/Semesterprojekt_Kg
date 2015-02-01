@@ -622,6 +622,9 @@ p{
 /*Abstand für erklärung*/
 .luecke{
 	height: 140px;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
 }
 .fade {
 	opacity: 1;
