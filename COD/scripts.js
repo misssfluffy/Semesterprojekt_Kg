@@ -7,11 +7,16 @@ $(document).ready(function(){
 		
 		console.log(toggle);
 		if (toggle) {
-			$(".gap2").fadeIn('500');
+			//Alle anderen bis auf das geklickte müssen ausgeblendet werden... 
+			$(".gap03, .gap2, .gap41, .gap42, .gap43, .gap44, .gap45, .gap46, .gap47, .gap48, .gap49, .gap410, .gap411, .gap412, .gap413").fadeOut('50');
+			// ...und die Klasse luecke entfernt werden
+			$(" .gap21, .gap22, .gap23, .gap24, .gap25, .gap26, .gap27, .gap28, .gap29, .gap210, .gap211, .gap212, .gap213").removeClass("luecke");		
 	
+			$(".gap2").fadeIn('500');
+		
 
 		} else {
-			$(".gap2").fadeOut('500');
+			$(".gap2, .gap41, .gap42, .gap43, .gap44, .gap45, .gap46, .gap47, .gap48, .gap49, .gap410, .gap411, .gap412, .gap413 ").fadeOut('500');
 			$(".gap03").fadeOut('500');
 						 	
 		}
@@ -29,12 +34,15 @@ $(document).ready(function(){
 	$(".gap02").click(function(){
 			console.log(toggle);
 		if (toggle) {
+	//Alle anderen bis auf das geklickte müssen ausgeblendet werden... 
+			$(".gap2, .gap41, .gap42, .gap43, .gap44, .gap45, .gap46, .gap47, .gap48, .gap49, .gap410, .gap411, .gap412, .gap413").fadeOut('50');
+			// ...und die Klasse luecke entfernt werden
+			$(" .gap21, .gap22, .gap23, .gap24, .gap25, .gap26, .gap27, .gap28, .gap29, .gap210, .gap211, .gap212, .gap213").removeClass("luecke");		
 	
 			$(".gap03").fadeIn('500');
-	
-
+			
 		} else {
-			$(".gap03").fadeOut('500');
+			$(".gap03, .gap41, .gap42, .gap43, .gap44, .gap45, .gap46, .gap47, .gap48, .gap49, .gap410, .gap411, .gap412, .gap413").fadeOut('500');
 			$(".gap2").fadeOut('500');
 			
 			 	
@@ -57,9 +65,9 @@ $(document).ready(function(){
 		console.log(toggle);
 		if (toggle) {
 			//Alle anderen bis auf das geklickte müssen ausgeblendet werden... 
-			$(".gap42, .gap43, .gap44, .gap45, .gap46, .gap47, .gap48").fadeOut('50');
+			$(".gap42, .gap43, .gap44, .gap45, .gap46, .gap47, .gap48, .gap49, .gap410, .gap411, .gap412, .gap413").fadeOut('50');
 			// ...und die Klasse luecke entfernt werden
-			$(".gap21, .gap22, .gap23, .gap24, .gap25, .gap26, .gap27 ").removeClass("luecke");		
+			$(" .gap21, .gap22, .gap23, .gap24, .gap25, .gap26, .gap27, .gap28, .gap29, .gap210, .gap211, .gap212, .gap213").removeClass("luecke");		
 	
 			$(".gap31, .gap41").fadeIn('500');
 			$(".gap21").addClass("luecke");
@@ -78,6 +86,7 @@ $(document).ready(function(){
 	});
 });
 
+
 /* gungame*/
 $(document).ready(function(){
 
@@ -87,10 +96,16 @@ $(document).ready(function(){
 		
 		console.log(toggle);
 		if (toggle) {
+			//Alle anderen bis auf das geklickte müssen ausgeblendet werden... 
+			$(".gap41, .gap43, .gap44, .gap45, .gap46, .gap47, .gap48, .gap49, .gap410, .gap411, .gap412, .gap413").fadeOut('50');
+			// ...und die Klasse luecke entfernt werden
+			$(".gap21, .gap22, .gap23, .gap24, .gap25, .gap26, .gap27, .gap28, .gap29, .gap210, .gap211, .gap212, .gap213").removeClass("luecke");		
+			
 			$(".gap32, .gap42").fadeIn('500');
 			$(".gap22").addClass("luecke");
 
 		} else {
+
 			$(".gap32, .gap42").fadeOut('500');
 			$(".gap22").removeClass("luecke");
 			 	
@@ -111,6 +126,11 @@ $(document).ready(function(){
 		
 		console.log(toggle);
 		if (toggle) {
+			//Alle anderen bis auf das geklickte müssen ausgeblendet werden... 
+			$(".gap41, .gap42, .gap44, .gap45, .gap46, .gap47, .gap48, .gap49, .gap410, .gap411, .gap412, .gap413").fadeOut('50');
+			// ...und die Klasse luecke entfernt werden
+			$(".gap21, .gap22, .gap23, .gap24, .gap25, .gap26, .gap27, .gap28, .gap29, .gap210, .gap211, .gap212, .gap213").removeClass("luecke");		
+			
 			$(".gap33, .gap43").fadeIn('500');
 			$(".gap23").addClass("luecke");
 
@@ -135,6 +155,11 @@ $(document).ready(function(){
 		
 		console.log(toggle);
 		if (toggle) {
+			//Alle anderen bis auf das geklickte müssen ausgeblendet werden... 
+			$(".gap41, .gap42, .gap43, .gap45, .gap46, .gap47, .gap48, .gap49, .gap410, .gap411, .gap412, .gap413").fadeOut('50');
+			// ...und die Klasse luecke entfernt werden
+			$(".gap21, .gap22, .gap23, .gap24, .gap25, .gap26, .gap27, .gap28, .gap29, .gap210, .gap211, .gap212, .gap213").removeClass("luecke");		
+	
 			$(".gap34, .gap44").fadeIn('500');
 			$(".gap24").addClass("luecke");
 
@@ -159,6 +184,11 @@ $(document).ready(function(){
 		
 		console.log(toggle);
 		if (toggle) {
+			//Alle anderen bis auf das geklickte müssen ausgeblendet werden... 
+			$(".gap41, .gap42, .gap43, .gap44, .gap46, .gap47, .gap48, .gap49, .gap410, .gap411, .gap412, .gap413").fadeOut('50');
+			// ...und die Klasse luecke entfernt werden
+			$(".gap21, .gap22, .gap23, .gap24, .gap25, .gap26, .gap27, .gap28, .gap29, .gap210, .gap211, .gap212, .gap213").removeClass("luecke");		
+	
 			$(".gap35, .gap45").fadeIn('500');
 			$(".gap25").addClass("luecke");
 
@@ -183,6 +213,11 @@ $(document).ready(function(){
 		
 		console.log(toggle);
 		if (toggle) {
+			//Alle anderen bis auf das geklickte müssen ausgeblendet werden... 
+			$(".gap41, .gap42, .gap43, .gap44, .gap45, .gap47, .gap48, .gap49, .gap410, .gap411, .gap412, .gap413").fadeOut('50');
+			// ...und die Klasse luecke entfernt werden
+			$(".gap21, .gap22, .gap23, .gap24, .gap25, .gap26, .gap27, .gap28, .gap29, .gap210, .gap211, .gap212, .gap213").removeClass("luecke");		
+	
 			$(".gap36, .gap46").fadeIn('500');
 			$(".gap26").addClass("luecke");
 
@@ -206,6 +241,11 @@ $(document).ready(function(){
 		
 		console.log(toggle);
 		if (toggle) {
+			//Alle anderen bis auf das geklickte müssen ausgeblendet werden... 
+			$(".gap41, .gap42, .gap43, .gap44, .gap45, .gap46, .gap48, .gap49, .gap410, .gap411, .gap412, .gap413").fadeOut('50');
+			// ...und die Klasse luecke entfernt werden
+			$(".gap21, .gap22, .gap23, .gap24, .gap25, .gap26, .gap27, .gap28, .gap29, .gap210, .gap211, .gap212, .gap213").removeClass("luecke");		
+			
 			$(".gap37, .gap47").fadeIn('500');
 			$(".gap27").addClass("luecke");
 
@@ -230,6 +270,11 @@ $(document).ready(function(){
 		
 		console.log(toggle);
 		if (toggle) {
+			//Alle anderen bis auf das geklickte müssen ausgeblendet werden... 
+			$(".gap41, .gap42, .gap43, .gap44, .gap45, .gap46, .gap47, .gap49, .gap410, .gap411, .gap412, .gap413").fadeOut('50');
+			// ...und die Klasse luecke entfernt werden
+			$(".gap21, .gap22, .gap23, .gap24, .gap25, .gap26, .gap27, .gap28, .gap29, .gap210, .gap211, .gap212, .gap213").removeClass("luecke");		
+			
 			$(".gap38, .gap48").fadeIn('500');
 			$(".gap28").addClass("luecke");
 
@@ -254,6 +299,11 @@ $(document).ready(function(){
 		
 		console.log(toggle);
 		if (toggle) {
+//Alle anderen bis auf das geklickte müssen ausgeblendet werden... 
+			$(".gap41, .gap42, .gap43, .gap44, .gap45, .gap46, .gap47, .gap48, .gap410, .gap411, .gap412, .gap413").fadeOut('50');
+			// ...und die Klasse luecke entfernt werden
+			$(".gap21, .gap22, .gap23, .gap24, .gap25, .gap26, .gap27, .gap28, .gap29, .gap210, .gap211, .gap212, .gap213").removeClass("luecke");		
+	
 			$(".gap39, .gap49").fadeIn('500');
 			$(".gap29").addClass("luecke");
 
@@ -277,6 +327,10 @@ $(document).ready(function(){
 		
 		console.log(toggle);
 		if (toggle) {
+			$(".gap41, .gap42, .gap43, .gap44, .gap45, .gap46, .gap47, .gap48, .gap49, .gap411, .gap412, .gap413").fadeOut('50');
+			// ...und die Klasse luecke entfernt werden
+			$(".gap21, .gap22, .gap23, .gap24, .gap25, .gap26, .gap27, .gap28, .gap29, .gap210, .gap211, .gap212, .gap213").removeClass("luecke");		
+			
 			$(".gap310, .gap410").fadeIn('500');
 			$(".gap210").addClass("luecke");
 
@@ -301,6 +355,10 @@ $(document).ready(function(){
 		
 		console.log(toggle);
 		if (toggle) {
+			$(".gap41, .gap42, .gap43, .gap44, .gap45, .gap46, .gap47, .gap48, .gap49, .gap410, .gap412, .gap413").fadeOut('50');
+			// ...und die Klasse luecke entfernt werden
+			$(".gap21, .gap22, .gap23, .gap24, .gap25, .gap26, .gap27, .gap28, .gap29, .gap210, .gap211, .gap212, .gap213").removeClass("luecke");		
+	
 			$(".gap311, .gap411").fadeIn('500');
 			$(".gap211").addClass("luecke");
 
@@ -325,8 +383,13 @@ $(document).ready(function(){
 		
 		console.log(toggle);
 		if (toggle) {
+			$(".gap41, .gap42, .gap43, .gap44, .gap45, .gap46, .gap47, .gap48, .gap49, .gap410, .gap411, .gap413").fadeOut('50');
+			// ...und die Klasse luecke entfernt werden
+			$(".gap21, .gap22, .gap23, .gap24, .gap25, .gap26, .gap27, .gap28, .gap29, .gap210, .gap211, .gap212, .gap213").removeClass("luecke");		
+	
 			$(".gap312, .gap412").fadeIn('500');
 			$(".gap212").addClass("luecke");
+
 
 		} else {
 			$(".gap312, .gap412").fadeOut('500');
@@ -350,6 +413,10 @@ $(document).ready(function(){
 		
 		console.log(toggle);
 		if (toggle) {
+			$(".gap41, .gap42, .gap43, .gap44, .gap45, .gap46, .gap47, .gap48, .gap49, .gap410, .gap411, .gap412").fadeOut('50');
+			// ...und die Klasse luecke entfernt werden
+			$(".gap21, .gap22, .gap23, .gap24, .gap25, .gap26, .gap27, .gap28, .gap29, .gap210, .gap211, .gap212, .gap213").removeClass("luecke");		
+	
 			$(".gap313, .gap413").fadeIn('500');
 			$(".gap213").addClass("luecke");
 
